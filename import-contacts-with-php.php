@@ -137,7 +137,6 @@ if(isset($_SESSION['google_code'])) {
         foreach ($google_contacts as $contact) {
             echo '<tr>';
             echo '<td>'.$contact['name'].'</td>';
-
             echo '<td>'.$contact['email'].'</td>';
             echo '<td>'.$contact['phone'].'</td>';
             /*if(!empty($contact['image']) and $contact['image']!='Photo not found') :
