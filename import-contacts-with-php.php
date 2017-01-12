@@ -147,6 +147,8 @@ if(isset($_SESSION['google_code'])) {
             else:
                 echo '<td></td>';
             endif;*/
+
+
             echo '<td><a href=import-contacts-with-php.php?cno='.$contact['phone'].'>Edit</a></td>';
             echo '</tr>';
         }
