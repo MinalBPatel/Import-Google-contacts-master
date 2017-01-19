@@ -6,5 +6,4 @@
  * Time: 2:30 PM
  */
 echo "hello world..!";
-echo "hello";
 ?>
