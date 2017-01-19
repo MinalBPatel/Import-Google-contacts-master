@@ -161,13 +161,13 @@ if(isset($_SESSION['google_code'])) {
         <br><br><br>
         <div class="col-lg-12">
             <?php
-            if(isset($_GET['cno']))
+           /* if(isset($_GET['cno']))
             {
                 $cno=$_GET['cno'];
                 echo "your Contact No. is ".$cno;
                 echo "<input type='text' name='txtcno' value='$cno'>";
 
-            } ?>
+            } */?>
             <!--This page is a practical example on how to import google contacts. This is related with the folowing article
             <br>
             <a href="https://www.design19.org/blog/import-google-contacts-with-php-or-javascript-using-google-contacts-api-and-oauth-2-0/" target="_blank">
